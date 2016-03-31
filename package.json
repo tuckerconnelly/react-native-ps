@@ -1,0 +1,35 @@
+{
+  "name": "react-native-match-media",
+  "version": "0.0.2",
+  "description": "window.matchMedia mock for React Native",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuckerconnelly/match-media-mocks.git"
+  },
+  "homepage": "https://github.com/tuckerconnelly/match-media-mocks.git",
+  "keywords": [
+    "matchMedia",
+    "React Native"
+  ],
+  "author": "Tucker Connelly <web@tuckerconnelly.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^4.1.8",
+    "babel-plugin-react-intl": "^2.1.1",
+    "babel-preset-react-native": "^1.5.3",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-react": "^3.16.1"
+  },
+  "peerDependencies": {
+    "react-native": "^0.22.2"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
