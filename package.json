@@ -1,17 +1,17 @@
 {
-  "name": "react-native-match-media",
+  "name": "react-native-ps",
   "version": "0.0.2",
-  "description": "window.matchMedia mock for React Native",
+  "description": "Simple function to switch between platform-specific styles",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuckerconnelly/match-media-mocks.git"
+    "url": "https://github.com/tuckerconnelly/react-native-ps.git"
   },
-  "homepage": "https://github.com/tuckerconnelly/match-media-mocks.git",
+  "homepage": "https://github.com/tuckerconnelly/react-native-ps.git",
   "keywords": [
-    "matchMedia",
-    "React Native"
+    "React Native",
+    "Platform"
   ],
   "author": "Tucker Connelly <web@tuckerconnelly.com>",
   "license": "MIT",

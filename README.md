@@ -16,6 +16,7 @@ const styles = ps({
     // Styles applied to all platforms
   },
 
+
   ios: {
     myComponent: {
       // iOS-specific styles
