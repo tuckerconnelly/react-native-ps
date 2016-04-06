@@ -1,8 +1,6 @@
-'use strict'
-
 const merge = require('lodash').merge
 
-let React
+var React
 
 // HACK Differentiates import depending on if we're running in server,
 // web client, or react native
@@ -10,7 +8,7 @@ let React
 if (process && !global.__BUNDLE_START_TIME__) React = require('react-native-web')
 else React = require('react-native')
 
-module.exports = styles => {
+module.exports = function (styles) {
   switch (React.Platform.OS) {
     case 'ios':
       return merge(styles, styles.ios || {})
