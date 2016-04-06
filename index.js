@@ -4,9 +4,10 @@ const merge = require('lodash').merge
 
 let React
 
-// If running on the server, import react-native-web for SSR instead of
-// react-native
-if (process) React = require('react-native-web')
+// HACK Differentiates import depending on if we're running in server,
+// web client, or react native
+// See tuckerconnelly/carbon-ui/src/react.js
+if (process && !global.__BUNDLE_START_TIME__) React = require('react-native-web')
 else React = require('react-native')
 
 module.exports = styles => {
