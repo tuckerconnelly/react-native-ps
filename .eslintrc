@@ -19,6 +19,10 @@
     "new-cap": 0,
     "no-loop-func": 0,
     "no-var": 0,
-    "func-names": 0
+    "func-names": 0,
+    "prefer-spread": 0,
+    "prefer-rest-params": 0,
+
+    "import/no-unresolved": 0
   }
 }

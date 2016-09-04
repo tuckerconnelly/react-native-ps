@@ -1,7 +1,5 @@
-const lodash = require('lodash')
-const merge = lodash.merge
-const mergeWith = lodash.mergeWith
-
+const merge = require('lodash/merge')
+const mergeWith = require('lodash/mergeWith')
 const ReactNative = require('react-native-universal')
 
 module.exports = function (styles) {
@@ -17,6 +15,8 @@ module.exports = function (styles) {
         return merge(evaluate(objValue, arguments), evaluate(srcValue, arguments))
       }
     }
+
+    return undefined
   }
 
   switch (ReactNative.Platform.OS) {
@@ -27,4 +27,6 @@ module.exports = function (styles) {
     case 'web':
       return mergeWith(styles, styles.web || {}, customizer)
   }
+
+  return {}
 }
