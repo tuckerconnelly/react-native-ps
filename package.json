@@ -1,6 +1,6 @@
 {
   "name": "react-native-ps",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple function to switch between platform-specific styles",
   "main": "index.js",
   "scripts": {},
