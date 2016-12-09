@@ -3,7 +3,7 @@ react-native-ps
 
 Simple function to merge styles based on platform in React Native. ps stands for "platform styles."
 
-## Usage
+### Usage
 
 ```js
 import ps from 'react-native-ps'
@@ -35,5 +35,9 @@ const styles = ps({
 })
 ```
 
-## License
+### Connect
+
+Follow the creator on Twitter, [@TuckerConnelly](https://twitter.com/TuckerConnelly)
+
+### License
 MIT
