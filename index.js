@@ -1,6 +1,6 @@
 const merge = require('lodash/merge')
 const mergeWith = require('lodash/mergeWith')
-const ReactNative = require('react-native-universal')
+const ReactNative = require('react-native')
 
 module.exports = function (styles) {
   function evaluate(func, args) {
